@@ -1,0 +1,1118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navigation bar --------------------------------------------------------------------------> */
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* NAV LOGO CSS ----------------------------------------------------------- */
+.navlogo {
+    height: 50px;
+    width: 110px;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.border:hover {
+    border: 1px solid #ffffff;
+}
+
+/* DELIVER BOX CSS --------------------------------------------------- */
+
+.deliver p span {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.deliver .icon {
+    display: flex;
+    text-align: center;
+}
+
+.deliver .icon p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+/* SEARCHBAR BOX CSS---------------------------------------------------------------------------- */
+.searchbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(220, 75, 75);
+    border-radius: 4px;
+    width: 600px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.searchbar:hover {
+    border: 3px solid #febd69;
+    border-radius: 4px;
+}
+
+.searchbar select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+}
+
+.searchbar .input-lense {
+    display: flex;
+    width: 100%;
+    border: none;
+
+}
+
+.searchbar .input-lense input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.searchbar .lense {
+    /* height: 40px; */
+    width: 40px;
+    color: #69646492;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchbar .search-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd69;
+    color: #0f1111;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.search-icon:hover{
+    background-color: #ee9e36;
+}
+
+
+/* SIGN-IN BOX CSS ----------------------------------------------------------------------------- */
+.sign-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in span {
+    font-size: 12px;
+}
+
+.account {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* RETURNS BOX CSS -------------------------------------------------------------------------- */
+.return span {
+    font-size: 12px;
+}
+
+/* CART BOX CSS---------------------------------------------------------------- */
+.cart {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+/* ANOTHER BAR CSS STARTS------------------------------------------------------------- */
+.anotherbar {
+    height: 40px;
+    background-color: #232F3E;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    padding: 8px 9px ;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.menu i {
+    font-size: 17px;
+    padding-right: 5px;
+}
+
+.other {
+    display: flex;
+    margin-right: 300px;
+}
+
+.other .deals {
+    padding: 8px 9px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* HERO SECTION IMAGE STARTS HERE -------------------------------------------------------- */
+.hero-section {
+    height: 280px;
+    width: 100%;
+    background-image: url(images/hero4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero-section .message {
+
+    margin: 0px 32px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section .message p {
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+.hero-section .message a {
+    color: #007185;
+}
+
+/* HERO SECTION2 STARTS FROM HERE---------------------------------------- */
+.hero-section2 {
+    height: auto;
+    background-color: rgb(72, 10, 187);
+    background-image: linear-gradient(to bottom, rgb(72, 10, 187), rgb(198, 198, 198));
+    display: flex;
+    justify-content: center;
+}
+
+/* SHOPPING CONTAINER STARTS FROM HERE------------------------------------------------------ */
+.shopping {
+    /* border: 2px solid black; */
+    height: auto;
+    width: 97%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.shopping .box {
+    height: 394px;
+    width: 290px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: start;
+    /* border: 2px solid red; */
+}
+
+.shopping .box .image {
+   /* border: 2px solid orangered; */
+   height: 260px;
+   width: 245px;
+   margin: 2px 20px;
+
+}
+.shopping .box .heading2 {
+    margin: 0px 20px;
+    font-size: 21px;
+    /* height: 27px; */
+    width: 266px;
+    padding: 20px 0px 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopping .box1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.shopping .box2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.shopping .box3 img{
+    height: 100%;
+    width: 100%;
+}
+.shopping .box4 img{
+    height: 100%;
+    width: 100%;
+}
+
+.shopping .box .paragraph {
+    font-size: 13px;
+    height: 19px;
+    width: 266px;
+    margin: 10px 20px;
+    color: #007185;
+}
+
+/* Book sections starts from here---------------------------------------------------- */
+.book {
+    height: 310px;
+    width: 100%;
+    background-color: rgb(198, 198, 198);
+}
+.book .booksection{
+    margin: 0px 30px 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid orange;   */
+}
+.book .booksection h2 {
+    padding: 10px 18px 0px;
+    margin-bottom: 8px;
+    font-size: 21px;
+}
+
+.container {
+    height: 246px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book .booksection .container .thirdsection {
+    width: 133px;
+    height: 200px;
+    /* border: 2px solid red; */
+
+}
+
+.book1 {
+    background-image: url(images/book1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.book2 {
+    background-image: url(images/book2.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.book3 {
+    background-image: url(images/book3.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.book4 {
+    background-image: url(images/book4.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.book5 {
+    background-image: url(images/book5.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.book6 {
+    background-image: url(images/book6.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.book7 {
+    background-image: url(images/book7.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.book8 {
+    background-image: url(images/book8.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+/* FOOTER STARTS FROM HERE---------------------------------------------------------------- */
+.panel-1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+/* Panel 2 starts------------ */
+.panel-2 {
+    height: 400px;
+    background-color: #222f3d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    color: white;
+
+}
+.panel-2 ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.panel-2 ul p{
+    font-size:16px;
+}
+
+.panel-2 ul a {
+    color: #cccccc;
+    text-decoration: none;
+}
+/* Panel 3 starts ------------------------------------ */
+.panel-3{
+    height: 90px;
+    border-top: 0.5px solid #cccccc;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(images/logo.png);
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.panel-3 .button{
+    display: flex;
+}
+.panel-3 .button div{
+    height: 32px;
+    padding: 7.8px;
+    margin: 0px 3px;
+    border: 0.5px solid #cccccc;
+    border-radius: 4px;
+    background-color:transparent;
+    color: #cccccc;
+    font-size: 13px;
+}
+.panel-3 .button .first {
+    padding-right: 15px;
+    display: flex;
+
+}
+/* Panel 4 starts---------------------------------- */
+.panel-4 {
+    height: 74px;
+    background-color: #131a22;
+    display: flex;
+    flex-direction: column;
+    color: #cccccc;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.panel-4 .terms a{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+
+.panel-4 .terms a:hover {
+    text-decoration:underline;
+    color: #cccccc;
+}
+
+/* MEDIA QUERIES -------------------------------------------------------------------------- */
+/* MEDIA QUERIES FOR PHONE ------------- */
+@media (min-width:200px) and (max-width:600px) {
+/* Navbar queries starts from here --------------------------------------------- */
+
+    .border {
+        padding: 2px 5px;
+    }
+
+    .navbar {
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navlogo {
+        width: 100px;
+    }
+
+    .deliver {
+        width: 85px;
+    }
+
+    .deliver p span {
+        font-size: 7px;
+        margin-left: 12px;
+    }
+
+    .deliver .icon i{
+        font-size: 10px;
+    }
+
+    .deliver .icon P {
+        font-size: 10px;
+    }
+
+    .searchbar {
+        width: 400px;
+        height: 30px;
+    }
+
+    .searchbar select {
+        font-size: 10px;
+    }
+
+    .searchbar .input-lense input {
+        font-size: 10px;
+    }
+
+    .searchbar .lense {
+        width: 24px;
+    }
+
+    .searchbar .input-lense .lense i {
+        font-size: 12px;
+    }
+
+    .searchbar .search-icon {
+        width: 28px;
+    }
+
+    .search-icon i {
+        font-size:12px;
+    }
+
+    .sign-in {
+        width: 126px;
+        margin-bottom: 5px;
+    }
+
+    .sign-in p span {
+        font-size: 8px;
+    }
+
+    .return {
+        width: 78px;
+        margin-bottom: 5px;
+    }
+
+    .return p span {
+        font-size: 8px;
+    }
+    .account {
+        font-size: 9px;
+    }
+
+    .cart {
+        font-size: 8px;
+        margin-top: 4px;
+    }
+
+    .cart i {
+        font-size: 13px;
+    }
+
+/* ANOTHER BAR QUERIES STARTS FROM HERE ------------------------------------------- */
+
+    .anotherbar {
+        height: 25px;
+        width: 100%;
+    }
+
+    .menu {
+        font-size: 8px;
+    }
+
+    .menu i {
+        font-size: 10px;
+    }
+
+    .other {
+        margin-right: 0px;
+    }
+
+    .other .deals {
+        font-size: 10px;
+    }
+/* HERO-SECTION QUERIES STARTS FROM HERE-------------------------- */
+    .hero-section {
+        height: 150px;
+    }
+
+    .hero-section .message p {
+        font-size: 8px;
+        padding: 10px 8px;
+    }
+
+    /* HERO SECTION 2 QUERIES START FROM HERE ------------------------------------------ */
+
+    .shopping .box {
+        height: 195px;
+        width: 128px
+    }
+
+    .shopping .box .heading2 {
+        margin: 0px 6px;
+        font-size: 10px;
+        /* height: 27px; */
+        width: 115px;
+    }
+
+    .shopping .box .image {
+        /* border: 2px solid orangered; */
+        height: 215px;
+        width: 89px;
+    }
+
+    .shopping .box .paragraph {
+        font-size: 7px;
+    }
+
+    /* BOOK SECTION STARTS FROM HERE------------------------------------------------ */
+    .book {
+        height: auto;
+    }
+
+    .book .booksection {
+        margin: 0px 30px;
+    }
+
+    .book .booksection h2 {
+        font-size: 10px;
+    }
+    .booksection .container {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .book .booksection .container .thirdsection {
+        width: 80px;
+        height: 119px;
+        margin: 8px;
+    }
+
+    /* FOOTER STARTS FROM HERE ------------------------------------------------------------ */
+    .panel-1 {
+        height: 25px;
+        font-size: 10px;
+    }
+    .panel-2 {
+        height: 300px;
+    }
+
+    .panel-2 ul {
+        font-size:10px;
+    }
+
+    .panel-2 ul p {
+        font-size: 10px;
+    }
+
+    .panel-3 {
+        height: 75px;
+    }
+
+    .panel-3 .logo{
+        height: 42px;
+        width: 84px;
+    }
+
+    .panel-3 .button .first i {
+        font-size: 10px;
+    }
+
+    .panel-3 .button .first p {
+        font-size: 10px;
+    }
+
+    .panel-3 .button .second {
+        font-size: 10px;
+    }
+
+    .panel-3 .button .three {
+        font-size: 10px;
+    }
+
+
+}
+
+/* MEDIA QUERIES FOR TABLET--------------- */
+
+@media (min-width:600px) and (max-width:765px) {
+    /* NAVBAR QUERIES------------------------------*/ 
+    .border {
+        padding: 2px 5px;
+    }
+
+    .navbar {
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navlogo {
+        width: 100px;
+    }
+
+    .deliver {
+        width: 90px;
+    }
+
+    .deliver p span {
+        font-size: 9px;
+        margin-left: 12px;
+    }
+
+    .deliver .icon i{
+        font-size: 12px;
+    }
+
+    .deliver .icon P {
+        font-size: 12px;
+    }
+
+    .searchbar {
+        width: 420px;
+        height: 30px;
+    }
+
+    .searchbar select {
+        font-size: 10px;
+    }
+
+    .searchbar .input-lense input {
+        font-size: 11px;
+    }
+
+    .searchbar .lense {
+        width: 27px;
+    }
+
+    .searchbar .input-lense .lense i {
+        font-size: 13px;
+    }
+
+    .searchbar .search-icon {
+        width: 30px;
+    }
+
+    .search-icon i {
+        font-size:13px;
+    }
+
+    .sign-in {
+        width: 126px;
+        margin-bottom: 5px;
+    }
+
+    .sign-in p span {
+        font-size: 9px;
+    }
+
+    .return {
+        width: 82px;
+        margin-bottom: 5px;
+    }
+
+    .return p span {
+        font-size: 9px;
+    }
+    .account {
+        font-size: 10px;
+    }
+
+    .cart {
+        font-size: 9px;
+        margin-top: 4px;
+    }
+
+    .cart i {
+        font-size: 13px;
+    }
+    
+
+    /* anotherbar queries starts from here---------------------------------------- */
+    .anotherbar {
+        height: 35px;
+        width: 100%;
+    }
+
+    .menu {
+        font-size: 10px;
+    }
+
+    .menu i {
+        font-size: 13px;
+    }
+
+    .other {
+        margin-right: 0px;
+    }
+
+    .other .deals {
+        font-size: 11px;
+    }
+
+    /* sectionqueries ---------------------------- */
+    .hero-section {
+        height: 170px;
+    }
+
+    .hero-section .message p {
+        font-size: 8px;
+        padding: 10px 8px;
+    }
+
+    /* shopping section starts from here ------------------------------- */
+    .shopping .box {
+        height: 200px;
+        width: 160px
+    }
+
+    .shopping .box .heading2 {
+        margin: 0px 6px;
+        font-size: 10px;
+        /* height: 27px; */
+        width: 115px;
+    }
+
+    .shopping .box .image {
+        /* border: 2px solid orangered; */
+        height: 215px;
+        width: 122px;
+    }
+
+    .shopping .box .paragraph {
+        font-size: 7px;
+    }
+
+    /* booksection -------------------------- */
+    .book {
+        height: auto;
+    }
+
+    .book .booksection {
+        margin: 0px 30px;
+    }
+
+    .book .booksection h2 {
+        font-size: 10px;
+    }
+    .booksection .container {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .book .booksection .container .thirdsection {
+        width: 92px;
+        height: 135px;
+        margin: 9px;
+    }
+
+    /* FOOTER STARTS FROM HERE ------------------------------------------------------------ */
+    .panel-1 {
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .panel-2 {
+        height: 310px;
+    }
+    
+    .panel-2 ul {
+        font-size:10px;
+    }
+    
+    .panel-2 ul p {
+       font-size: 11px;
+    }
+
+    .panel-3 {
+        height: 65px;
+    }
+
+    .panel-3 .logo{
+        height: 42px;
+        width: 84px;
+    }
+
+    .panel-3 .button .first i {
+        font-size: 10px;
+    }
+
+    .panel-3 .button .first p {
+        font-size: 10px;
+    }
+
+    .panel-3 .button .second {
+        font-size: 10px;
+    }
+
+    .panel-3 .button .three {
+        font-size: 10px;
+    }
+
+}
+/* MEDIA QUERIES FOR SMALL DEICES LIKE LAPTOP------------------------------- */
+
+@media (min-width:765px) and (max-width:1148px) {
+    /* NAVBAR QUERIES----------------------------- */
+    body {
+        overflow-x: hidden;
+    }
+    
+    .border {
+        padding: 2px 5px;
+    }
+
+    .navbar {
+        height: 57px;
+        /* display: flex;
+        justify-content: space-evenly; */
+    }
+
+    .navlogo {
+        width: 100px;
+    }
+
+    .deliver {
+        width: 90px;
+    }
+
+    .deliver p span {
+        font-size: 10px;
+        margin-left: 12px;
+    }
+
+    .deliver .icon i{
+        font-size: 12px;
+    }
+
+    .deliver .icon P {
+        font-size: 12px;
+    }
+
+    .searchbar {
+        width: 420px;
+        height: 30px;
+    }
+
+    .searchbar select {
+        font-size: 10px;
+    }
+
+    .searchbar .input-lense input {
+        font-size: 11px;
+    }
+
+    .searchbar .lense {
+        width: 27px;
+    }
+
+    .searchbar .input-lense .lense i {
+        font-size: 13px;
+    }
+
+    .searchbar .search-icon {
+        width: 30px;
+    }
+
+    .search-icon i {
+        font-size:13px;
+    }
+
+    .sign-in {
+        width: 126px;
+        margin-bottom: 5px;
+    }
+
+    .sign-in p span {
+        font-size: 10px;
+    }
+
+    .return {
+        width: 82px;
+        margin-bottom: 5px;
+    }
+
+    .return p span {
+        font-size: 10px;
+    }
+    .account {
+        font-size: 10px;
+    }
+
+    .cart {
+        font-size: 11px;
+        margin-top: 4px;
+    }
+
+    .cart i {
+        font-size: 15px;
+    }
+
+    .hero-section {
+        height: 230px;
+    }
+
+    .hero-section .message p {
+        font-size: 11px;
+        padding: 10px 8px;
+    }
+
+    /* shopping section css---------------------------- */
+
+    .shopping .box {
+        height: 233px;
+        width: 180px
+    }
+
+    .shopping .box .heading2 {
+        margin: 0px 6px;
+        font-size: 11px;
+        /* height: 27px; */
+        width: 115px;
+    }
+
+    .shopping .box .image {
+        /* border: 2px solid orangered; */
+        height: 215px;
+        width: 137px;
+    }
+
+    .shopping .box .paragraph {
+        font-size: 9px;
+    }
+
+    /* booksection -------------------------- */
+    .book {
+        height: auto;
+    }
+
+    .book .booksection {
+        margin: 0px 30px;
+    }
+
+    .book .booksection h2 {
+        font-size: 13px;
+    }
+    .booksection .container {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .book .booksection .container .thirdsection {
+        width: 135px;
+        height: 220px;
+        margin: 9px;
+    }
+
+     /* FOOTER STARTS FROM HERE ------------------------------------------------------------ */
+     .panel-1 {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .panel-2 {
+        height: 310px;
+    }
+    
+    .panel-2 ul {
+        font-size:12px;
+    }
+    
+    .panel-2 ul p {
+       font-size: 12px;
+    }
+
+    .panel-3 {
+        height: 65px;
+    }
+
+    .panel-3 .logo{
+        height: 45px;
+        width: 89px;
+    }
+
+    .panel-3 .button .first i {
+        font-size: 12px;
+    }
+
+    .panel-3 .button .first p {
+        font-size: 12px;
+    }
+
+    .panel-3 .button .second {
+        font-size: 12px;
+    }
+
+    .panel-3 .button .three {
+        font-size: 12px;
+    }
+
+
+
+
+
+    
+}
